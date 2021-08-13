@@ -9,5 +9,5 @@ try {
     live2d_settings['modelTexturesId'] = 0;          // 默认材质 ID
     live2d_settings['modelStorage'] = false;         // 不储存模型 ID
     /* 在 initModel 前添加 */
-    initModel('assets/waifu-tips.json');
+    initModel('https://cdn.jsdelivr.net/gh/byt19990101/live2d_2018@release/assets/waifu-tips.json');
 } catch(err) { console.log('[Error] JQuery is not defined.') }
